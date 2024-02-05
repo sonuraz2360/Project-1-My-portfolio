@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:green;
+    padding: 10px 0;
+    text-align: center;
+}
+header img {
+    max-width: 200px; 
+    border-radius: 100%; 
+}
+
+
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:darkgray;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.project-card {
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    margin: 0;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+footer {
+    background-color: whitesmoke;
+    padding: 10px 0;
+    text-align: center;
+}
